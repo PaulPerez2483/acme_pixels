@@ -53,3 +53,14 @@ button {
 .hover_w {
 	border: 1px solid white !important;
 }
+
+.grid-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid-container > div {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+}
