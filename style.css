@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+h2 {
+	margin: 0;
+}
+
+.container {
+	display: flex;
+}
+
+.controls,
+.grid {
+	border: 1px solid black;
+	padding: 20px;
+}
+.controls {
+	flex: 1;
+}
+
+.grid {
+	flex: 2;
+}
+.color-block {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+
+.color-block > div {
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+#grid-creator {
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid black;
+	padding: 15px;
+}
+
+input {
+	margin-bottom: 25px;
+}
+
+input,
+button {
+	padding: 10px;
+}
+
+.hover_w {
+	border: 1px solid white !important;
+}
